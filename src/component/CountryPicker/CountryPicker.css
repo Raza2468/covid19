@@ -1,4 +1,8 @@
-    .FormControl{
-        width: 30%;
+    #formControl{
+        /* width: 30%; */
         margin-bottom: 30px !important;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }

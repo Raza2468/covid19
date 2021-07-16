@@ -31,9 +31,10 @@ class App extends Component {
 
     return (
       // fucation component 
-      <div className="container">
-        <img src="https://i.ibb.co/7QpKsCX/image.png" alt="covid19" />
+      <div >
+        <img class="img" src="https://cdn.pixabay.com/photo/2020/03/30/11/49/corona-virus-4984021_960_720.jpg" alt="covid19" />
         <Cards data={data} />
+        <br />
         <CountryPicker handleCountryChange={this.handleCountryChange} />
         <Chart data={data} country={country} />
       </div>

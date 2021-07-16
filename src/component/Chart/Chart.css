@@ -1,13 +1,6 @@
-
-.container{
-    display: flex;
-    justify-content: center;
-    /* text-align: center; */
-    width: 85%;
-}
-
   @media only screen and (max-width: 770px) {
-    .container {
-      width: 100%;
+    .containerbarChart {
+      width: 100%  !important;
+      height: 100%  !important;
     }
   }
