@@ -1,6 +1,14 @@
   @media only screen and (max-width: 770px) {
-    .containerbarChart {
+    #containerbarChart {
       width: 100%  !important;
       height: 100%  !important;
     }
+  }
+  #containerbarChart{
+    /* background-color: aqua; */
+    width: 70%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
